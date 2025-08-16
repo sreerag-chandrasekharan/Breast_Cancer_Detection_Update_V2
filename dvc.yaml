@@ -6,7 +6,7 @@ stages:
       - data/raw
       - params.yaml
     outs:
-      - models/log_model.pkl
+      - models/model.pkl
       - models/mlflow_model
     metrics:
       - metrics.json:

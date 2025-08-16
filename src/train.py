@@ -33,7 +33,6 @@ with open('C:/Users/Sreerag/Documents/ML_chellange/Breast_Cancer_Detection_Updat
 pipe = Pipeline([
     ('scaler', StandardScaler()),
     ('classifier', LogisticRegression(
-        penalty= params['penalty'],
         C= params['C'], 
         solver='liblinear', 
         class_weight=params['class_weight'], 
@@ -61,8 +60,8 @@ with mlflow.start_run():
 #----save the model
 
 os.makedirs("models", exist_ok=True)
-model_path = "Model/model.pkl"
-mlflow.sklearn.save_model(pipe, "Model/mlflow_model")
+model_path = "models/model.pkl"
+mlflow.sklearn.save_model(pipe, "models/mlflow_model")
 import joblib; joblib.dump(pipe, model_path)
 
 #------- also write metrics for DVC
@@ -72,5 +71,3 @@ with open("metrics.json", "w") as f:
 #---- log artifacts
     mlflow.log_artifact("metrics.json")
     mlflow.log_artifact(model_path)
-
-    print("Run ID:", run.info.run_id)

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Sreerag/Documents/ML_chellange/Breast_Cancer_Detection_Update_V2/mlruns/569637423524874039/685dca2358784ac4bbc24eb35cfa85e2/artifacts
+end_time: 1755297196628
+entry_point_name: ''
+experiment_id: '569637423524874039'
+lifecycle_stage: active
+run_id: 685dca2358784ac4bbc24eb35cfa85e2
+run_name: amusing-newt-636
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755297191996
+status: 3
+tags: []
+user_id: Sreerag

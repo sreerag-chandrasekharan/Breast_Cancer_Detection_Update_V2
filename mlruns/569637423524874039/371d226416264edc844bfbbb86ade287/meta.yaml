@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Sreerag/Documents/ML_chellange/Breast_Cancer_Detection_Update_V2/mlruns/569637423524874039/371d226416264edc844bfbbb86ade287/artifacts
+end_time: 1755297574024
+entry_point_name: ''
+experiment_id: '569637423524874039'
+lifecycle_stage: active
+run_id: 371d226416264edc844bfbbb86ade287
+run_name: salty-doe-240
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755297566028
+status: 3
+tags: []
+user_id: Sreerag

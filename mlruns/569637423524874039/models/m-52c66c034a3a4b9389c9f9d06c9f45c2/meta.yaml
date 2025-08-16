@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Sreerag/Documents/ML_chellange/Breast_Cancer_Detection_Update_V2/mlruns/569637423524874039/models/m-52c66c034a3a4b9389c9f9d06c9f45c2/artifacts
+creation_timestamp: 1755373845142
+experiment_id: '569637423524874039'
+last_updated_timestamp: 1755373856413
+model_id: m-52c66c034a3a4b9389c9f9d06c9f45c2
+model_type: null
+name: model
+source_run_id: a348607a0325436ba94bc1ffdbe48efb
+status: 2
+status_message: null

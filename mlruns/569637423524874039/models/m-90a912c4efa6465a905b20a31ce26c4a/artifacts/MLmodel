@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/Sreerag/Documents/ML_chellange/Breast_Cancer_Detection_Update_V2/mlruns/569637423524874039/models/m-90a912c4efa6465a905b20a31ce26c4a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+mlflow_version: 3.2.0
+model_id: m-90a912c4efa6465a905b20a31ce26c4a
+model_size_bytes: 2065
+model_uuid: m-90a912c4efa6465a905b20a31ce26c4a
+prompts: null
+run_id: d2786086f698493faad5383b75b19f0e
+utc_time_created: '2025-08-15 22:38:35.381142'

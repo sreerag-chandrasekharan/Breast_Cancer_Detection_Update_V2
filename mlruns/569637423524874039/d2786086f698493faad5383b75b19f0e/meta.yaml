@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Sreerag/Documents/ML_chellange/Breast_Cancer_Detection_Update_V2/mlruns/569637423524874039/d2786086f698493faad5383b75b19f0e/artifacts
+end_time: 1755297519570
+entry_point_name: ''
+experiment_id: '569637423524874039'
+lifecycle_stage: active
+run_id: d2786086f698493faad5383b75b19f0e
+run_name: youthful-mink-158
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755297515230
+status: 3
+tags: []
+user_id: Sreerag

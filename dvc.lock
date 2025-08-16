@@ -1,0 +1,32 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: data/raw
+      hash: md5
+      md5: d26dfafe40514b1e9a2fddc4f21a009a.dir
+      size: 125204
+      nfiles: 1
+    - path: params.yaml
+      hash: md5
+      md5: 013f4c432c8853f6ce13232a258accd4
+      size: 98
+    - path: src/train.py
+      hash: md5
+      md5: 181822211aaa9b62ed6f34f2f9365427
+      size: 2437
+    outs:
+    - path: metrics.json
+      hash: md5
+      md5: 04bfb52610cb1880085dbed9c7155efc
+      size: 99
+    - path: models/mlflow_model
+      hash: md5
+      md5: 8d849cf4f288f3a6f1b65cf0f607f888.dir
+      size: 3043
+      nfiles: 5
+    - path: models/model.pkl
+      hash: md5
+      md5: d5a7ef8b18452fcbfbf1d5cfaf5432b5
+      size: 2333
