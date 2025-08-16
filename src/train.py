@@ -31,7 +31,6 @@ with open('C:/Users/Sreerag/Documents/ML_chellange/Breast_Cancer_Detection_Updat
 
 #--- model pipeline
 pipe = Pipeline([
-    ('scaler', StandardScaler()),
     ('classifier', LogisticRegression(
         C= params['C'], 
         solver='liblinear', 
@@ -71,3 +70,4 @@ with open("metrics.json", "w") as f:
 #---- log artifacts
     mlflow.log_artifact("metrics.json")
     mlflow.log_artifact(model_path)
+    mlflow.sklearn.log_model(pipe, "model")
