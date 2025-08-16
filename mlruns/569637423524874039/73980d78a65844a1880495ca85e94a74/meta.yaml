@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Sreerag/Documents/ML_chellange/Breast_Cancer_Detection_Update_V2/mlruns/569637423524874039/73980d78a65844a1880495ca85e94a74/artifacts
+deleted_time: 1755374437610
 end_time: 1755373859896
 entry_point_name: ''
 experiment_id: '569637423524874039'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 73980d78a65844a1880495ca85e94a74
 run_name: upbeat-trout-416
 source_name: ''

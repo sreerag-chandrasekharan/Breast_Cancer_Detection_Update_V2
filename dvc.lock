@@ -14,8 +14,8 @@ stages:
       size: 98
     - path: src/train.py
       hash: md5
-      md5: 181822211aaa9b62ed6f34f2f9365427
-      size: 2437
+      md5: 64a2da2030f9501f8cb8674501d0281f
+      size: 2489
     outs:
     - path: metrics.json
       hash: md5
@@ -23,10 +23,10 @@ stages:
       size: 99
     - path: models/mlflow_model
       hash: md5
-      md5: 8d849cf4f288f3a6f1b65cf0f607f888.dir
-      size: 3043
+      md5: 8a98356c15ad4ae0eb5062f0b399d780.dir
+      size: 2051
       nfiles: 5
     - path: models/model.pkl
       hash: md5
-      md5: d5a7ef8b18452fcbfbf1d5cfaf5432b5
-      size: 2333
+      md5: 526f759feaaa03953e5e47c000af2672
+      size: 1236

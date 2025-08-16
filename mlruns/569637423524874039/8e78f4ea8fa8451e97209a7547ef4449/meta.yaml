@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Sreerag/Documents/ML_chellange/Breast_Cancer_Detection_Update_V2/mlruns/569637423524874039/8e78f4ea8fa8451e97209a7547ef4449/artifacts
+end_time: 1755375992781
+entry_point_name: ''
+experiment_id: '569637423524874039'
+lifecycle_stage: active
+run_id: 8e78f4ea8fa8451e97209a7547ef4449
+run_name: amusing-fly-196
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755375988215
+status: 3
+tags: []
+user_id: Sreerag

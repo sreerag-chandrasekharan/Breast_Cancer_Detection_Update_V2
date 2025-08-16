@@ -62,6 +62,7 @@ os.makedirs("models", exist_ok=True)
 model_path = "models/model.pkl"
 mlflow.sklearn.save_model(pipe, "models/mlflow_model")
 import joblib; joblib.dump(pipe, model_path)
+joblib.dump(scaler, "models/scaler.pkl")
 
 #------- also write metrics for DVC
 with open("metrics.json", "w") as f:

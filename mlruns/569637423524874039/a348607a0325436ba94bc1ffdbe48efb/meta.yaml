@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Sreerag/Documents/ML_chellange/Breast_Cancer_Detection_Update_V2/mlruns/569637423524874039/a348607a0325436ba94bc1ffdbe48efb/artifacts
+deleted_time: 1755374437610
 end_time: 1755373856433
 entry_point_name: ''
 experiment_id: '569637423524874039'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a348607a0325436ba94bc1ffdbe48efb
 run_name: industrious-fawn-85
 source_name: ''

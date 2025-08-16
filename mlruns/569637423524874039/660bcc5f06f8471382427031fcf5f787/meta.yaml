@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Sreerag/Documents/ML_chellange/Breast_Cancer_Detection_Update_V2/mlruns/569637423524874039/660bcc5f06f8471382427031fcf5f787/artifacts
+deleted_time: 1755374437607
 end_time: 1755297697346
 entry_point_name: ''
 experiment_id: '569637423524874039'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 660bcc5f06f8471382427031fcf5f787
 run_name: melodic-kit-883
 source_name: ''

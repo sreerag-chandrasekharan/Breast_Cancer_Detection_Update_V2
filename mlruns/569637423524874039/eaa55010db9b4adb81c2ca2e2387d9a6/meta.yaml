@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Sreerag/Documents/ML_chellange/Breast_Cancer_Detection_Update_V2/mlruns/569637423524874039/eaa55010db9b4adb81c2ca2e2387d9a6/artifacts
+end_time: 1755374470770
+entry_point_name: ''
+experiment_id: '569637423524874039'
+lifecycle_stage: active
+run_id: eaa55010db9b4adb81c2ca2e2387d9a6
+run_name: sedate-donkey-341
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755374466279
+status: 3
+tags: []
+user_id: Sreerag

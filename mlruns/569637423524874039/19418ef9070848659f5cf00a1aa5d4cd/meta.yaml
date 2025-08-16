@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Sreerag/Documents/ML_chellange/Breast_Cancer_Detection_Update_V2/mlruns/569637423524874039/19418ef9070848659f5cf00a1aa5d4cd/artifacts
+deleted_time: 1755374437597
 end_time: 1755297199687
 entry_point_name: ''
 experiment_id: '569637423524874039'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 19418ef9070848659f5cf00a1aa5d4cd
 run_name: victorious-mouse-451
 source_name: ''

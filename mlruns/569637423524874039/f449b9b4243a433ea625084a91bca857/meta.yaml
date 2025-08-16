@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Sreerag/Documents/ML_chellange/Breast_Cancer_Detection_Update_V2/mlruns/569637423524874039/f449b9b4243a433ea625084a91bca857/artifacts
+end_time: 1755374477351
+entry_point_name: ''
+experiment_id: '569637423524874039'
+lifecycle_stage: active
+run_id: f449b9b4243a433ea625084a91bca857
+run_name: wise-turtle-991
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755374473878
+status: 3
+tags: []
+user_id: Sreerag
