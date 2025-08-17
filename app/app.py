@@ -5,6 +5,46 @@ import json
 import plotly.graph_objects as go
 import numpy as np
 
+# min and max values for the sliders
+with open("models/feature_stats.json", "r") as f:
+    FEATURE_STATS = json.load(f)
+
+def get_min_max_mean(key):
+    return FEATURE_STATS[key]
+
+# Define the slider labels and keys
+SLIDER_LABELS = [
+    ("Radius (mean)", "radius_mean"),
+    ("Texture (mean)", "texture_mean"),
+    ("Perimeter (mean)", "perimeter_mean"),
+    ("Area (mean)", "area_mean"),
+    ("Smoothness (mean)", "smoothness_mean"),
+    ("Compactness (mean)", "compactness_mean"),
+    ("Concavity (mean)", "concavity_mean"),
+    ("Concave points (mean)", "concave points_mean"),
+    ("Symmetry (mean)", "symmetry_mean"),
+    ("Fractal dimension (mean)", "fractal_dimension_mean"),
+    ("Radius (se)", "radius_se"),
+    ("Texture (se)", "texture_se"),
+    ("Perimeter (se)", "perimeter_se"),
+    ("Area (se)", "area_se"),
+    ("Smoothness (se)", "smoothness_se"),
+    ("Compactness (se)", "compactness_se"),
+    ("Concavity (se)", "concavity_se"),
+    ("Concave points (se)", "concave points_se"),
+    ("Symmetry (se)", "symmetry_se"),
+    ("Fractal dimension (se)", "fractal_dimension_se"),
+    ("Radius (worst)", "radius_worst"),
+    ("Texture (worst)", "texture_worst"),
+    ("Perimeter (worst)", "perimeter_worst"),
+    ("Area (worst)", "area_worst"),
+    ("Smoothness (worst)", "smoothness_worst"),
+    ("Compactness (worst)", "compactness_worst"),
+    ("Concavity (worst)", "concavity_worst"),
+    ("Concave points (worst)", "concave points_worst"),
+    ("Symmetry (worst)", "symmetry_worst"),
+    ("Fractal dimension (worst)", "fractal_dimension_worst"),
+]
 
 #-- add the slidebar
 
@@ -12,28 +52,16 @@ def add_sidebar():
 
     st.sidebar.header("Cell Nuclei Measurements")
 
-    slider_labels = [
-    ("Radius", "radius_mean"),
-    ("Texture", "texture_mean"),
-    ("Perimeter", "perimeter_mean"),
-    ("Area", "area_mean"),
-    ("Smoothness", "smoothness_mean"),
-    ("Compactness", "compactness_mean"),
-    ("Concavity", "concavity_mean"),
-    ("Concave points", "concave_points_mean"),
-    ("Symmetry", "symmetry_mean"),
-    ("Fractal dimension", "fractal_dimension_mean"),
-]
     input_dict = {}
 
     # Add the sliders
-    for label, key in slider_labels:
+    for label, key in SLIDER_LABELS:
+        min_value, max_value = get_min_max_mean(key)
         input_dict[key] = st.sidebar.slider(
             label,
-            min_value= None,
-            max_value= None,
-            value= None,
-            step= None,
+            min_value= min_value,
+            max_value= max_value,
+            value= (min_value + max_value) / 2,  # Default value is the mean
             format="%.2f")
 
 
