@@ -74,7 +74,7 @@ def main():
         initial_sidebar_state="expanded")
 
     #--- add the sidebar
-    input_dict = add_sidebar()
+    input_data = add_sidebar()
     # ----Set up the structure
 
     with st.container():
